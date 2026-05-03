@@ -1,0 +1,30 @@
+{
+    "report_title": "Comprehensive Automation Test Report",
+    "project_name": "Test Automation Project",
+    "environments": {
+        "staging": {
+            "trend_data": [
+                {
+                    "date": "2026-05-03",
+                    "timestamp": "2026-05-03 09:16:46",
+                    "execution_time": "00:00:01",
+                    "total": 9,
+                    "passed": 7,
+                    "failed": 1,
+                    "skipped": 1,
+                    "package_summary": {
+                        "Python_Pytest_Email_Report": {
+                            "passed": 7,
+                            "failed": 1,
+                            "skipped": 1,
+                            "total": 9
+                        }
+                    }
+                }
+            ]
+        },
+        "prod": {
+            "trend_data": []
+        }
+    }
+}
